@@ -1,0 +1,11 @@
+## .NET Build Outputs
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.db
+
+## NuGet
+*.nupkg
+packages/

@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Aidventure.CLI/Aidventure.CLI.csproj" />
+    <Project Path="src/Aidventure.Core/Aidventure.Core.csproj" />
+  </Folder>
+</Solution>

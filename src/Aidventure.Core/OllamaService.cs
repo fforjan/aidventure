@@ -136,11 +136,7 @@ public class OllamaService
         var sb = new StringBuilder();
         foreach (var r in routes)
         {
-            var target = r.TargetSceneId;
-            var dead = target.StartsWith("DEAD");
-            var end = target.StartsWith("END");
-            var label = dead ? "(leads to death)" : end ? "(leads to ending)" : $"(→ {target})";
-            sb.AppendLine($"Route {r.Key}: {label}");
+            sb.AppendLine($"Route {r.Key}: {r.Description}");
         }
         return sb.ToString();
     }

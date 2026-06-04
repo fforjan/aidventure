@@ -13,6 +13,7 @@ public record Scene(
 public record SceneRoute(
     RouteKey Key,
     string TargetSceneId,
+    string Description = "",
     string? SetHunterAlly = null,
     bool SetInjured = false,
     bool SetSpotted = false,

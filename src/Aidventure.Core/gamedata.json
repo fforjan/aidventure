@@ -1,0 +1,427 @@
+{
+  "scenes": [
+    {
+      "id": "S1",
+      "title": "Wake Up",
+      "text": "**Hotel room. 3:47 AM. Neon bleeds through the blinds.**\r\n\r\nYour phone buzzes \u2014 encrypted message, unknown sender:\r\n*\u0022GET OUT NOW. AIRPORT. FLIGHT 7:15 AM. GATE 12. DO NOT STOP.\u0022*\r\n\r\nYou have 3 hours 28 minutes. You don\u0027t know who sent this. But your gut says trust it.\r\nYour bag is half-packed on the chair. The room is quiet. The corridor outside is silent.\r\n\r\n*What do you do?*",
+      "isDead": false,
+      "isEnding": false
+    },
+    {
+      "id": "S2",
+      "title": "Lobby Gauntlet",
+      "text": "**Ground floor. Two men in armchairs. Shoes too clean. Eyes too sharp. Mafia.**\r\n\r\nThey clock you the moment the elevator opens. One reaches for his phone.\r\nYou have about three seconds before they\u0027re both on their feet.\r\n\r\n*What\u0027s your move?*",
+      "isDead": false,
+      "isEnding": false
+    },
+    {
+      "id": "S3",
+      "title": "Clean Street",
+      "text": "**Back alley. Pre-dawn fog. The city holds its breath.**\r\n\r\nYou\u0027re out. No one followed you here. The faint glow of the airport tower is visible above the rooftops \u2014 maybe 6 kilometres away. The air is cold and damp. Two routes present themselves.\r\n\r\nTo the left, the noise of an early morning market is already building \u2014 stalls, crowds, cover.\r\nTo the right, the river road stretches quiet and open through the fog.\r\n\r\n*Which way?*",
+      "isDead": false,
+      "isEnding": false
+    },
+    {
+      "id": "S4",
+      "title": "Spotted and Running",
+      "text": "**Front street. One of the men is already out the door behind you, talking into his collar.**\r\n\r\nYou have a 20-second lead and a street full of options. A motorcycle sits at the kerb, keys in the ignition. The morning market entrance is half a block ahead. And the men behind you are not alone.\r\n\r\n*Move. Now.*",
+      "isDead": false,
+      "isEnding": false
+    },
+    {
+      "id": "S5",
+      "title": "Morning Market",
+      "text": "**Spice stalls. Diesel fumes. Vendors shouting. Dawn breaking orange.**\r\n\r\nYou\u0027re threading through the crowd when you feel it \u2014 a presence. Then you see them: lean, dressed in black, moving with surgical calm through the stalls. Not mafia. Not police. Something else entirely. **A city hunter.** They haven\u0027t made a move \u2014 yet. But their eyes are locked on you.\r\n\r\n*What do you do?*",
+      "isDead": false,
+      "isEnding": false
+    },
+    {
+      "id": "S6",
+      "title": "Riverside Route",
+      "text": "**Fog on the water. No one here but fishermen and ghosts.**\r\n\r\nThe longer road. Quiet. You can think. Halfway along the embankment you notice a figure sitting on a bollard \u2014 watching the water. They turn as you approach. **The city hunter.** They weren\u0027t chasing you. They were *waiting* for you.\r\n\r\nThey don\u0027t move. Just watch.\r\n\r\n*Do you stop, or keep walking?*",
+      "isDead": false,
+      "isEnding": false
+    },
+    {
+      "id": "S7",
+      "title": "Motorcycle",
+      "text": "**The engine screams. Wind. Speed. Freedom \u2014 for about four minutes.**\r\n\r\nThen the police scanner picks up the plate. A patrol car lights up two blocks ahead, pulling across the road. They\u0027re setting a roadblock. Blue and white. Nowhere to go around it.\r\n\r\n*What do you do?*",
+      "isDead": false,
+      "isEnding": false
+    },
+    {
+      "id": "S8",
+      "title": "The Hunter",
+      "text": "**They don\u0027t reach for a weapon. They hold their hands open.**\r\n\r\n*\u0022I\u0027m not here to stop you,\u0022* they say. Their voice is flat, professional. *\u0022We got the same message. I\u0027m here to make sure you get on that plane.\u0022*\r\n\r\nYou don\u0027t know if this is true. But they haven\u0027t moved against you. And they\u0027ve had multiple chances.\r\n\r\n*Do you trust them?*",
+      "isDead": false,
+      "isEnding": false
+    },
+    {
+      "id": "S9",
+      "title": "Shadow",
+      "text": "**You\u0027ve shaken them. Or so you think.**\r\n\r\nThe market thins out. Industrial streets now. The airport district is close \u2014 you can smell the jet fuel. You glance back. Nothing. But the feeling doesn\u0027t leave.\r\n\r\nYou reach a junction. Ahead: the freight gate. Behind you: silence that feels too deliberate.\r\n\r\n*Do you press on, or deal with what\u0027s behind you?*",
+      "isDead": false,
+      "isEnding": false
+    },
+    {
+      "id": "S10",
+      "title": "Police Tangle",
+      "text": "**A uniform steps out in front of you. Hand raised.**\r\n\r\nThe knocked-over stall triggered a call. He\u0027s young, hand resting on his belt, not sure what he\u0027s dealing with yet. He just knows there was a disturbance and you were running.\r\n\r\n*How do you handle this?*",
+      "isDead": false,
+      "isEnding": false
+    },
+    {
+      "id": "S11",
+      "title": "Freight Gate (Convergence Point)",
+      "text": "**Red gate. South side of the airport perimeter. A bored officer in a booth.**\r\n\r\nHe steps out, looks you up and down with the professional apathy of a man who has seen everything and cares about none of it. He holds out his palm.\r\n\r\n*\u0022Two hundred. American.\u0022*\r\n\r\nCheck \u0060cash\u0060 from SQL. If \u0060cash = 100\u0060, player is $100 short \u2014 narrate that they\u0027re counting out what they have.\r\nCheck \u0060hunter_ally\u0060 \u2014 if true, the hunter is standing silently beside you; the officer hesitates slightly before speaking.\r\n\r\n*What do you do?*",
+      "isDead": false,
+      "isEnding": false
+    },
+    {
+      "id": "S12",
+      "title": "Inside the Terminal",
+      "text": "**Arrivals hall bleeds into departures. Mafia men at every gate entrance, watching faces.**\r\n\r\nGate 12 is at the far end \u2014 400 metres of open floor with nowhere to hide. Your flight boards in **18 minutes**. The men don\u0027t know exactly where you are yet. But they will.\r\n\r\n*How do you get to the gate?*",
+      "isDead": false,
+      "isEnding": false
+    },
+    {
+      "id": "S13",
+      "title": "The Fence",
+      "text": "**Torn wire. Mud. The perimeter alarm doesn\u0027t trigger \u2014 you got lucky.**\r\n\r\nYour arm catches on the wire. You feel the warmth of blood before the pain. Your jacket is ruined. A maintenance worker twenty metres away is staring at you, frozen. You hold eye contact for one second, then keep moving. He doesn\u0027t call out.\r\n\r\nYou\u0027re in. But you\u0027re bleeding, and the gate closes in **10 minutes**.\r\n\r\n*What now?*\r\n\r\nSet \u0060injured=true\u0060 in SQL.",
+      "isDead": false,
+      "isEnding": false
+    },
+    {
+      "id": "S14",
+      "title": "Gate 12 \u2014 Final Confrontation",
+      "text": "**The jetway door is open. The gate agent has one hand on the handle.**\r\n\r\nThe mafia boss steps from the crowd. Not a thug \u2014 **the boss**. Expensive coat, cold eyes, two men flanking him. He moves like a man who has never been told no and never expected to be.\r\n\r\n*\u0022You\u0027re not leaving,\u0022* he says simply.\r\n\r\nRead all flags from SQL before narrating:\r\n- \u0060hunter_ally=true\u0060: narrate the hunter stepping silently into place beside you \u2014 two against three\r\n- \u0060injured=true\u0060: mention the blood soaking through your sleeve \u2014 a fight has a cost\r\n- \u0060s12_method=distraction\u0060: the fire alarm is still echoing \u2014 security is thin, the boss is slightly exposed\r\nThen present the situation and wait. Do NOT list choices.\r\n\r\n*The gate agent\u0027s hand is still on the door handle. The clock is down to seconds.*",
+      "isDead": false,
+      "isEnding": false
+    },
+    {
+      "id": "DEAD-1",
+      "title": "Froze in the lobby",
+      "text": "Froze in the lobby",
+      "isDead": true,
+      "isEnding": false,
+      "deadLastSafe": "S2"
+    },
+    {
+      "id": "DEAD-2",
+      "title": "Tried to reason with the mafia on the street",
+      "text": "Tried to reason with the mafia on the street",
+      "isDead": true,
+      "isEnding": false,
+      "deadLastSafe": "S4"
+    },
+    {
+      "id": "DEAD-3",
+      "title": "Ran the police roadblock on the motorcycle",
+      "text": "Ran the police roadblock on the motorcycle",
+      "isDead": true,
+      "isEnding": false,
+      "deadLastSafe": "S7"
+    },
+    {
+      "id": "DEAD-4",
+      "title": "Ran from the police officer",
+      "text": "Ran from the police officer",
+      "isDead": true,
+      "isEnding": false,
+      "deadLastSafe": "S10"
+    },
+    {
+      "id": "DEAD-5",
+      "title": "Stopped to clean up after the fence",
+      "text": "Stopped to clean up after the fence",
+      "isDead": true,
+      "isEnding": false,
+      "deadLastSafe": "S13"
+    },
+    {
+      "id": "DEAD-6",
+      "title": "Tried to use the gate agent against the boss",
+      "text": "Tried to use the gate agent against the boss",
+      "isDead": true,
+      "isEnding": false,
+      "deadLastSafe": "S14"
+    },
+    {
+      "id": "END-BEST",
+      "title": "Ghost Protocol",
+      "text": "The hunter moves. You move. It\u0027s over in seconds \u2014 professional, quiet. The boss looks at two unconscious men and then at you. He steps aside. You walk through the gate without looking back. The door closes. You never learn who sent the message \u2014 and that\u0027s exactly how they wanted it.",
+      "isDead": false,
+      "isEnding": true
+    },
+    {
+      "id": "END-GOOD",
+      "title": "Clean Hands",
+      "text": "The hunter handles the men. You square off with the boss. One sentence: *\u0022Everyone here can see your face.\u0022* He weighs it. Steps aside. You make it. Barely.",
+      "isDead": false,
+      "isEnding": true
+    },
+    {
+      "id": "END-NEUTRAL",
+      "title": "The Price of a Ticket",
+      "text": "You give him something you shouldn\u0027t \u2014 a name, a location, a secret you\u0027ve been carrying. He lets you go. You sit in seat 24F and stare at your hands for the entire flight. You made it. But someone else won\u0027t.",
+      "isDead": false,
+      "isEnding": true
+    },
+    {
+      "id": "END-HARD",
+      "title": "Scar Tissue",
+      "text": "Three against one. You take hits. You give more. The gate agent is screaming. Security is coming. You throw yourself through the jetway door as it\u0027s closing and collapse into the seat. Your hands are shaking. The seatbelt sign comes on.\r\n\r\n\r\n## \uD83C\uDFC1 Post-Game Summary\r\n\r\nAfter any ending, present:\r\n\r\n\u0060\u0060\u0060sql\r\nSELECT value FROM game_state WHERE key = \u0027path_log\u0027;\r\nSELECT value FROM game_state WHERE key = \u0027hunter_ally\u0027;\r\nSELECT value FROM game_state WHERE key = \u0027injured\u0027;\r\n\u0060\u0060\u0060\r\n\r\nThen display:\r\n- **Scenes visited** (from path_log)\r\n- **Ending earned**\r\n- **One-line epitaph** based on playstyle:\r\n  - All clean choices \u2192 *\u0022Moved like smoke. They never had a chance.\u0022*\r\n  - Several close calls \u2192 *\u0022Stubborn. Reckless. Alive.\u0022*\r\n  - Dead end \u002B restart \u2192 *\u0022Learned the hard way. Aren\u0027t they all.\u0022*\r\n  - Hunter ally \u002B best end \u2192 *\u0022Never had to go it alone \u2014 and was smart enough to know it.\u0022*\r\n\r\nOffer: **\u0022Play again?\u0022** \u2014 if yes, reset all SQL values and return to S1.\r\n\r\n\r\n## \u2699\uFE0F Turn Procedure\r\n\r\nEvery single turn, follow this exact sequence:\r\n\r\n1. \u0060SELECT value FROM game_state WHERE key = \u0027scene\u0027\u0060 \u2014 get current scene\r\n2. Narrate the scene \u2014 **no A/B/C labels, no listed options** \u2014 end on a moment of tension or an open question\r\n3. Wait for the player\u0027s freeform response\r\n4. Interpret their response:\r\n   - **Maps to a valid route** (even loosely worded): pick the closest match, acknowledge their action in one brief in-narrative sentence, update SQL, narrate the next scene immediately\r\n   - **Completely outside valid options** (impossible, nonsensical, out of world): respond in character with a short dry remark, stay in the current scene, invite them to try again\r\n5. When advancing, update SQL:\r\n   \u0060\u0060\u0060sql\r\n   UPDATE game_state SET value = \u0027\u003Cnext_scene\u003E\u0027 WHERE key = \u0027scene\u0027;\r\n   UPDATE game_state SET value = (SELECT value FROM game_state WHERE key = \u0027path_log\u0027) || \u0027\u2192\u003Cnext_scene\u003E\u0027 WHERE key = \u0027path_log\u0027;\r\n   -- update any flags changed by this scene transition\r\n   \u0060\u0060\u0060\r\n6. **Output ONLY the narrative.** Never write routing commentary, scene IDs, SQL status, transition notes, or any meta-text. The player sees nothing but the story.",
+      "isDead": false,
+      "isEnding": true
+    }
+  ],
+  "routes": [
+    {
+      "sceneId": "S1",
+      "key": "A",
+      "targetSceneId": "S3",
+      "description": "Leave via fire escape / avoid lobby / go straight out",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S1",
+      "key": "B",
+      "targetSceneId": "S2",
+      "description": "Go through the lobby / take the elevator down",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S1",
+      "key": "C",
+      "targetSceneId": "S3",
+      "description": "Look out the window first, then leave",
+      "setInjured": false,
+      "setSpotted": true,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S2",
+      "key": "A",
+      "targetSceneId": "S4",
+      "description": "Push through / walk past / act normal",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S2",
+      "key": "B",
+      "targetSceneId": "S3",
+      "description": "Back off / retreat / find another way / kitchen",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S3",
+      "key": "A",
+      "targetSceneId": "S5",
+      "description": "Market / left / crowds / shorter / faster",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S3",
+      "key": "B",
+      "targetSceneId": "S6",
+      "description": "River / right / quieter / longer / open road",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S4",
+      "key": "A",
+      "targetSceneId": "S5",
+      "description": "Market / crowd / lose them",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S4",
+      "key": "B",
+      "targetSceneId": "S7",
+      "description": "Motorcycle / bike / take the keys",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S5",
+      "key": "A",
+      "targetSceneId": "S8",
+      "description": "Face them / turn around / confront / stop",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S5",
+      "key": "B",
+      "targetSceneId": "S9",
+      "description": "Evade / double back / lose them / hide",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S5",
+      "key": "C",
+      "targetSceneId": "S10",
+      "description": "Run / sprint / flee",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S6",
+      "key": "A",
+      "targetSceneId": "S11",
+      "description": "Keep moving / ignore / walk past / go to airport",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S6",
+      "key": "B",
+      "targetSceneId": "S8",
+      "description": "Stop / listen / talk to them / hear what they say",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S7",
+      "key": "A",
+      "targetSceneId": "S11",
+      "description": "Ditch the bike / abandon it / run on foot",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S8",
+      "key": "A",
+      "targetSceneId": "S11",
+      "description": "Trust / yes / together / work with them",
+      "setHunterAlly": "true",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S8",
+      "key": "B",
+      "targetSceneId": "S9",
+      "description": "Refuse / no / alone / walk away",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S9",
+      "key": "A",
+      "targetSceneId": "S11",
+      "description": "Press on / go forward / freight gate / keep moving",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S9",
+      "key": "B",
+      "targetSceneId": "S8",
+      "description": "Stop / wait / face them / turn around",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S10",
+      "key": "A",
+      "targetSceneId": "S11",
+      "description": "Calm down / explain / show boarding pass / cooperate",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 12
+    },
+    {
+      "sceneId": "S11",
+      "key": "A",
+      "targetSceneId": "S12",
+      "description": "Pay / money / give him the cash",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S11",
+      "key": "B",
+      "targetSceneId": "S12",
+      "description": "Bluff / documents / ID / talk your way through",
+      "setInjured": false,
+      "setSpotted": true,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S11",
+      "key": "C",
+      "targetSceneId": "S13",
+      "description": "Fence / another way / go around / refuse",
+      "setInjured": true,
+      "setSpotted": false,
+      "burnMinutes": 0
+    },
+    {
+      "sceneId": "S12",
+      "key": "A",
+      "targetSceneId": "S14",
+      "description": "Blend in / walk / keep head down / quiet",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0,
+      "setS12Method": "blend"
+    },
+    {
+      "sceneId": "S12",
+      "key": "B",
+      "targetSceneId": "S14",
+      "description": "Distraction / fire alarm / cause a scene / create chaos",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0,
+      "setS12Method": "distraction"
+    },
+    {
+      "sceneId": "S12",
+      "key": "C",
+      "targetSceneId": "S14",
+      "description": "Security / get help / report being followed",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 10,
+      "setS12Method": "escort"
+    },
+    {
+      "sceneId": "S13",
+      "key": "A",
+      "targetSceneId": "S14",
+      "description": "Run / go / Gate 12 / move",
+      "setInjured": false,
+      "setSpotted": false,
+      "burnMinutes": 0
+    }
+  ]
+}

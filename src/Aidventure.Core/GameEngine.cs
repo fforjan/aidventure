@@ -56,7 +56,7 @@ public class GameEngine
         if (routes == null || routes.Count == 0)
             return (TurnResult.Dead, null);
 
-        // S14 final: filter routes by hunter_ally flag
+        // S14 final: filter routes by hunter_ally flag using data-driven RequiresHunterAlly
         if (gs.Scene == "S14")
             routes = FilterS14Routes(routes, gs);
 
@@ -96,10 +96,12 @@ public class GameEngine
 
     private static List<SceneRoute> FilterS14Routes(List<SceneRoute> routes, GameState gs)
     {
-        if (gs.HunterAlly)
-            return routes.Where(r => r.Key is RouteKey.A or RouteKey.B).ToList();
-        else
-            return routes.Where(r => r.Key is RouteKey.C or RouteKey.D).ToList();
+        // Routes with RequiresHunterAlly set are only valid when the flag matches.
+        // Routes without the condition are always included.
+        return routes.Where(r =>
+            r.RequiresHunterAlly == null ||
+            r.RequiresHunterAlly == gs.HunterAlly
+        ).ToList();
     }
 }
 

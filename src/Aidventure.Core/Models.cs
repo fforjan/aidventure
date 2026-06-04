@@ -1,6 +1,6 @@
 namespace Aidventure.Core;
 
-public enum RouteKey { A, B, C, D }
+public enum RouteKey { A, B, C, D, E }
 
 public record Scene(
     string Id,
@@ -18,7 +18,8 @@ public record SceneRoute(
     bool SetInjured = false,
     bool SetSpotted = false,
     int BurnMinutes = 0,
-    string? SetS12Method = null
+    string? SetS12Method = null,
+    bool? RequiresHunterAlly = null
 );
 
 public class GameState
